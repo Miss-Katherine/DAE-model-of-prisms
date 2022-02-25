@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="4pyramid_basic">
+    <static>true</static>
+    <pose>0 0 0 0 0 0</pose>
+    <link name="link1">
+
+      <visual name="visual1">
+        <geometry>
+          <mesh>
+            <uri>model://4pyramid_basic/meshes/4pyramid_basic.DAE</uri> 
+   	    <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+
+    </link>
+  </model>
+</sdf>

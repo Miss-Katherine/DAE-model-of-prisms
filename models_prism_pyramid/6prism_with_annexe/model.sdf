@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="6prism_with_annexe">
+    <static>true</static>
+    <pose>0 0 0 0 0 0</pose>
+    <link name="link1">
+
+      <visual name="visual1">
+        <geometry>
+          <mesh>
+            <uri>model://6prism_with_annexe/meshes/6prism_with_annexe.DAE</uri> 
+   	    <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+
+    </link>
+  </model>
+</sdf>

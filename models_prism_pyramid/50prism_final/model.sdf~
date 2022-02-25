@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="cuboid">
+    <static>true</static>
+    <pose>0 0 0 0 0 0</pose>
+    <link name="link1">
+
+      <visual name="visual1">
+        <geometry>
+          <mesh>
+            <uri>model://cuboid/gold.DAE</uri>    
+          </mesh>
+        </geometry>
+      </visual>
+
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Administrator</author>
+      <authoring_tool>OpenCOLLADA for 3ds Max;  Version: 1.6;  Revision: 62</authoring_tool>
+    </contributor>
+    <created>2020-11-17T01:45:22</created>
+    <modified>2020-11-17T01:45:22</modified>
+    <unit name="millimeter" meter="0.001"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Material__100">
+      <profile_COMMON>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.588 0.588 0.588 1</color>
+            </ambient>
+            <diffuse>
+              <color>1 0 0 1</color>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="Material__101">
+      <profile_COMMON>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.588 0.588 0.588 1</color>
+            </ambient>
+            <diffuse>
+              <color>0 1 0 1</color>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="Material__102">
+      <profile_COMMON>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.588 0.588 0.588 1</color>
+            </ambient>
+            <diffuse>
+              <color>0 0 1 1</color>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="Material__103">
+      <profile_COMMON>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.588 0.588 0.588 1</color>
+            </ambient>
+            <diffuse>
+              <color>1 1 0 1</color>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="Material__104">
+      <profile_COMMON>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.588 0.588 0.588 1</color>
+            </ambient>
+            <diffuse>
+              <color>1 0 1 1</color>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Material__100-material" name="Material__100">
+      <instance_effect url="#Material__100"/>
+    </material>
+    <material id="Material__101-material" name="Material__101">
+      <instance_effect url="#Material__101"/>
+    </material>
+    <material id="Material__102-material" name="Material__102">
+      <instance_effect url="#Material__102"/>
+    </material>
+    <material id="Material__103-material" name="Material__103">
+      <instance_effect url="#Material__103"/>
+    </material>
+    <material id="Material__104-material" name="Material__104">
+      <instance_effect url="#Material__104"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geom-Cylinder001" name="Cylinder001">
+      <mesh>
+        <source id="geom-Cylinder001-positions">
+          <float_array id="geom-Cylinder001-positions-array" count="60">250 0 0 202.2543 146.9463 0 77.25424 237.7641 0 -77.25426 237.7641 0 -202.2543 146.9463 0 -250 -2.18557e-5 0 -202.2542 -146.9463 0 -77.25427 -237.7641 0 77.25428 -237.7641 0 202.2543 -146.9462 0 250 0 300 202.2543 146.9463 300 77.25424 237.7641 300 -77.25426 237.7641 300 -202.2543 146.9463 300 -250 -2.18557e-5 300 -202.2542 -146.9463 300 -77.25427 -237.7641 300 77.25428 -237.7641 300 202.2543 -146.9462 300</float_array>
+          <technique_common>
+            <accessor source="#geom-Cylinder001-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Cylinder001-normals">
+          <float_array id="geom-Cylinder001-normals-array" count="120">1 8.97711e-8 0 0.8090169 0.5877852 0 0.8090171 0.5877852 0 1 5.98474e-8 0 0.3090169 0.9510565 0 0.3090169 0.9510565 0 -0.309017 0.9510565 0 -0.309017 0.9510565 0 -0.8090171 0.5877852 0 -0.8090171 0.5877852 0 -1 -7.48092e-8 0 -1 -5.98474e-8 0 -0.8090169 -0.5877852 0 -0.8090169 -0.5877853 0 -0.309017 -0.9510565 0 -0.3090169 -0.9510565 0 0.309017 -0.9510565 0 0.3090171 -0.9510565 0 0.8090171 -0.5877851 0 0.8090171 -0.5877851 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#geom-Cylinder001-normals-array" count="40" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Cylinder001-map1">
+          <float_array id="geom-Cylinder001-map1-array" count="126">0.75 0 1 0.85 0 1 0.95 0 1 0.05000002 0 0.9999999 0.1500001 0 1 0.25 0 1 0.35 0 1 0.45 0 0.9999999 0.55 0 1 0.6500001 0 1 0.75 1 1 0.85 1 1 0.95 1 1 0.05000002 1 0.9999999 0.1500001 1 1 0.25 1 1 0.35 1 1 0.45 1 0.9999999 0.55 1 1 0.6500001 1 1 1.05 0 0.9999999 1.05 1 0.9999999 0.7938925 0.9045086 -0.25 0.9755282 0.6545086 -0.25 0.9755282 0.3454915 -0.25 0.7938927 0.0954915 -0.25 0.5000001 0 -0.25 0.2061074 0.09549144 -0.25 0.02447176 0.3454915 -0.25 0.02447173 0.6545085 -0.25 0.2061073 0.9045085 -0.25 0.5 1 -0.25 0.5 1 0.25 0.2061073 0.9045085 0.25 0.02447173 0.6545085 0.25 0.02447176 0.3454915 0.25 0.2061074 0.09549144 0.25 0.5000001 0 0.25 0.7938927 0.0954915 0.25 0.9755282 0.3454915 0.25 0.9755282 0.6545086 0.25 0.7938925 0.9045086 0.25</float_array>
+          <technique_common>
+            <accessor source="#geom-Cylinder001-map1-array" count="42" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-Cylinder001-vertices">
+          <input semantic="POSITION" source="#geom-Cylinder001-positions"/>
+        </vertices>
+        <triangles material="Material__101_1" count="10">
+          <input semantic="VERTEX" source="#geom-Cylinder001-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#geom-Cylinder001-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#geom-Cylinder001-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 11 2 11 11 2 11 10 3 10 0 0 0 2 4 2 3 6 20 13 7 21 13 7 21 12 5 12 2 4 2 4 8 4 5 10 5 15 11 15 15 11 15 14 9 14 4 8 4 6 12 6 7 14 7 17 15 17 17 15 17 16 13 16 6 12 6 8 16 8 9 18 9 19 19 19 19 19 19 18 17 18 8 16 8</p>
+        </triangles>
+        <triangles material="Material__100_1" count="10">
+          <input semantic="VERTEX" source="#geom-Cylinder001-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#geom-Cylinder001-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#geom-Cylinder001-map1" offset="2" set="0"/>
+          <p>1 1 1 2 4 2 12 5 12 12 5 12 11 2 11 1 1 1 3 6 3 4 8 4 14 9 14 14 9 14 13 7 13 3 6 3 5 10 5 6 12 6 16 13 16 16 13 16 15 11 15 5 10 5 7 14 7 8 16 8 18 17 18 18 17 18 17 15 17 7 14 7 9 18 9 0 0 0 10 3 10 10 3 10 19 19 19 9 18 9</p>
+        </triangles>
+        <triangles material="Material__103_1" count="16">
+          <input semantic="VERTEX" source="#geom-Cylinder001-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#geom-Cylinder001-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#geom-Cylinder001-map1" offset="2" set="0"/>
+          <p>8 20 23 7 21 24 6 22 25 6 22 25 5 23 26 4 24 27 4 24 27 3 25 28 2 26 29 2 26 29 1 27 30 0 28 31 4 24 27 2 26 29 0 28 31 6 22 25 4 24 27 0 28 31 8 20 23 6 22 25 0 28 31 9 29 22 8 20 23 0 28 31 11 30 33 12 31 34 13 32 35 13 32 35 14 33 36 15 34 37 15 34 37 16 35 38 17 36 39 17 36 39 18 37 40 19 38 41 15 34 37 17 36 39 19 38 41 13 32 35 15 34 37 19 38 41 11 30 33 13 32 35 19 38 41 10 39 32 11 30 33 19 38 41</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>0 0 0</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight"/>
+      </node>
+      <node id="node-Cylinder001" name="Cylinder001">
+        <instance_geometry url="#geom-Cylinder001">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material__100_1" target="#Material__100-material"/>
+              <instance_material symbol="Material__101_1" target="#Material__101-material"/>
+              <instance_material symbol="Material__103_1" target="#Material__103-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADA">
+            <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+            <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+            <primary_visibility sid="primary_visibility" type="int">1</primary_visibility>
+            <secondary_visibility sid="secondary_visibility" type="int">1</secondary_visibility>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MaxScene"/>
+  </scene>
+</COLLADA>

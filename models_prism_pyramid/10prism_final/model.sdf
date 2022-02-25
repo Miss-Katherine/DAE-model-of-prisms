@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="10prism_final">
+    <static>true</static>
+    <pose>0 0 0 0 0 0</pose>
+    <link name="link1">
+
+      <visual name="visual1">
+        <geometry>
+          <mesh>
+            <uri>model://10prism_final/meshes/10prism_final.DAE</uri> 
+   	    <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+
+    </link>
+  </model>
+</sdf>
